@@ -1,0 +1,11 @@
+sum_total = 0
+
+1000.times do |i|
+
+if i % 3 == 0 or i % 5 == 0
+puts i
+sum_total += i
+end
+end
+
+puts sum_total
